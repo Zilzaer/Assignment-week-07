@@ -18,7 +18,7 @@ const MakePosts = () => {
     };
 
     try {
-      const response = await axios.post("http://localhost:8080/posts", postData);
+      const response = await axios.post("https://assignment-week-07-server.onrender.com", postData);
       if (response.data.success) {
         alert("Post created successfully!");
       } else {
