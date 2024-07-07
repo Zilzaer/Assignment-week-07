@@ -1,0 +1,17 @@
+/* Home.css */
+
+.gif-container {
+    max-width: 800px; /* Example: Adjust maximum width of the container */
+    background-image: url('../assets/spritebackground.png'); /* Set background image URL */
+    background-size: contain; /* Cover the entire background */
+    background-repeat: repeat-x; /* Prevent background from repeating */
+    background-position: center; /* Center the background image */
+    color: #ffffff; /* Example: Set text color to white */
+    margin-top: 400px;
+  }
+  
+  .pagetitle {
+    text-align: center; /* Center align the page title */
+  }
+  
+  
