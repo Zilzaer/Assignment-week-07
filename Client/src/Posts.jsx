@@ -8,7 +8,7 @@ const Posts = () => {
     // Fetch posts from the server
     const fetchPosts = async () => {
       try {
-        const response = await axios.get(`https://assignment-week-07-server.onrender.com`);
+        const response = await axios.get(`https://assignment-week-07-server.onrender.com/Posts`);
         setPosts(response.data);
       } catch (error) {
         console.error('Error fetching posts:', error);
